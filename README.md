@@ -6,7 +6,7 @@ These packages support Moveit!, RViz and serial communication with Mirobot.
 ## 1. Download and install
 Download ros packages for mirobot
 
-then manually copy package folders *mirobot_urdf_2* *mirobot_moveit_config* and *mirobot_gazebo* into a catkin_ws/src.
+then manually copy package folders *mirobot_description* *mirobot_moveit_config* and *mirobot_gazebo* into a catkin_ws/src.
 
 Install ros serial package
 ```bash
@@ -39,7 +39,7 @@ If you are using a virtual machine running Linux, turn off graphics hardware acc
 ### 3.1 Rviz Control Mode: 
 Show the xacro model of mirobot in rviz, then drag the scroll bar of each axis in rviz to control the movement of the manipulator.
 ```bash
-roslaunch mirobot_urdf_2 display.launch
+roslaunch mirobot_description display.launch
 ```
 
 ### 3.2 Moveit+gazebo Control Mode: 

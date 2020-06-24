@@ -1,10 +1,10 @@
 moveit_setup_assistant_config:
   URDF:
-    package: mirobot_urdf_2
-    relative_path: urdf/mirobot_urdf_2.urdf
+    package: mirobot_description
+    relative_path: urdf/mirobot_description.urdf
     xacro_args: "--inorder "
   SRDF:
-    relative_path: config/mirobot_urdf_2.srdf
+    relative_path: config/mirobot_description.srdf
   CONFIG:
     author_name: zhoudongxu
     author_email: zhoudongxv@yeah.net

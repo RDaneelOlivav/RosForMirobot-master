@@ -6,7 +6,7 @@
     default="True" />
   <param
     name="robot_description"
-    textfile="$(find mirobot_urdf_2)/urdf/mirobot_urdf_2.xacro" />
+    textfile="$(find mirobot_description)/urdf/mirobot_description.xacro" />
   <param
     name="use_gui"
     value="$(arg gui)" />
@@ -22,6 +22,6 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find mirobot_urdf_2)/urdf.rviz" />
-  <node name="mirobot_write_node" pkg="mirobot_urdf_2" type="mirobot_write_node" />
+    args="-d $(find mirobot_description)/urdf.rviz" />
+  <node name="mirobot_write_node" pkg="mirobot_description" type="mirobot_write_node" />
 </launch>
